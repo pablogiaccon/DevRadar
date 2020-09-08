@@ -27,6 +27,8 @@
 <p align="center">
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#como-executar">Requisitos</a>
 </p>
 
 <br>
@@ -153,7 +155,7 @@ $ yarn start
 # Acesse a pasta do projeto no terminal/cmd
 $ cd devradar
 
-# Vá para a pasta da aplicação Front End
+# Vá para a pasta da aplicação Mobile
 $ cd mobile
 
 # Instale as dependências
