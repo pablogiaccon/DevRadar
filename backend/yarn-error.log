@@ -1,0 +1,46 @@
+Arguments: 
+  /usr/bin/node /usr/local/bin/yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+
+PATH: 
+  /home/pablo/.zinit/polaris/sbin:/home/pablo/.zinit/polaris/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  10.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ENOTEMPTY: directory not empty, rmdir '/media/pablo/BACKUP/HD/RockeSeat/OmniStack 10/devradar/backend/node_modules/.bin'
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "nodemon src/index.js"
+    },
+    "dependencies": {
+      "axios": "^0.19.2",
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "mongoose": "^5.9.20"
+    },
+    "devDependencies": {
+      "eslint": "^7.3.1",
+      "eslint-config-airbnb-base": "^14.2.0",
+      "eslint-plugin-import": "^2.21.2",
+      "nodemon": "^2.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
